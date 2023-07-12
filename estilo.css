@@ -1,0 +1,50 @@
+.heladerias h3{
+    text-align: center;
+}
+.locales{
+    background-color:rgb(192, 191, 191);
+    margin: 5px ;
+    border-radius: 10px;   
+}
+.container img{
+    width:100%;
+    height:400px ;
+}
+.inicioprimera{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 700px;
+    padding: 1%;
+    margin: 20px;
+}
+.inicioprimera img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+} 
+.imagenes-inicio img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    min-width: 300px;
+}
+.iniciotercera img{
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+}
+.titulo{
+    text-align: center;
+}
+.sabores{
+    margin: 20px;
+    border: solid black;
+    height:450px ;
+}
+.sabores h2{
+    text-align: center;
+    color: rgb(64, 90, 81);
+}
