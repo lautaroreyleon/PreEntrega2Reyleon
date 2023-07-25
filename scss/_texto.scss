@@ -1,0 +1,26 @@
+.heladerias{
+    h3{
+        text-align: center;
+    }
+}
+.titulo{
+    text-align: center;
+}
+.sabores{
+    h2{
+        text-align: center;
+        color: $segundocolor;
+    }
+}
+.abritulocal1{
+    h1{
+        display: grid;
+        place-items: center ;
+        margin: 30px; 
+    }
+    p{
+        display: grid;
+        place-items: center ;
+        margin: 30px;
+    }
+} 
