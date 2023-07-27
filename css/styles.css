@@ -29,6 +29,7 @@
   margin: auto;
   border: solid black;
   height: 550px;
+  margin-bottom: 20px;
 }
 .sabores h2 {
   text-align: center;
@@ -191,6 +192,32 @@
 .contacto-1 img {
   width: 100%;
   height: 100%;
+}
+
+.inicio, .inicio-segunda, .inicio-primera {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.inicio-primera {
+  align-items: start;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.inicio-segunda {
+  gap: 15px;
+  margin: 15px;
+}
+
+.inicio-segunda img {
+  width: 100%;
+  height: 450px;
+}
+
+.inicio-tercera img {
+  width: 320px;
+  height: 600px;
 }
 
 /*# sourceMappingURL=styles.css.map */

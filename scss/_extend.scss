@@ -1,0 +1,17 @@
+.inicio{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr)) ;
+}
+
+.inicio-primera{
+    @extend .inicio;
+    align-items:start;
+    margin-top: 15px;
+    margin-bottom: 15px;    
+}
+
+.inicio-segunda{
+    @extend .inicio;
+    gap: 15px;
+    margin: 15px;
+}

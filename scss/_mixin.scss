@@ -1,0 +1,11 @@
+@mixin sizes($width,$height) {
+    width: $width;
+    height: $height;
+}
+
+.inicio-segunda img {
+    @include sizes(100%,450px)
+}
+.inicio-tercera img {
+    @include sizes(320px,600px)
+}
