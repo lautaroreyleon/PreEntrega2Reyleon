@@ -1,9 +1,26 @@
+header{
+    color:$tercercolor;
+}
+nav{
+    .navbar-brand{
+        color: $primercolor;
+    }
+}
+body{
+    background-image:url("../imagenes/fondodepantalla.webp");
+    width: 100%;
+    height: 100%;
+}
+
 .inicio-primera{
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(300px,1fr)) ;
     align-items:start;
     margin-top: 15px;
-    margin-bottom: 15px;    
+    margin-bottom: 15px;
+    p{
+        font-size: 20px;
+    }    
 }
    
 .inicio-segunda{
@@ -28,13 +45,13 @@
     border: solid $tercercolor;
     height:550px ;
     margin-bottom: 20px;
+    background-color: whitesmoke;
    
     h2{
         text-align: center;
         color: $segundocolor;
     }
 }
-
 .abritulocal2{
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(300px,1fr)) ;
@@ -56,4 +73,8 @@
     justify-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.row{
+    width: 100%;
+    justify-content: space-around;
 }
